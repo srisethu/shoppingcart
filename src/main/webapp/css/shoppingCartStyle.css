@@ -1,0 +1,46 @@
+.right {
+    float: right;
+}
+
+.alert {
+    color: red;
+}
+
+body {
+    background-color : rgb(52, 171, 235);
+}
+
+h1, .center {
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.result {
+  width:100%;
+  border-collapse:collapse;
+}
+.result th, .result td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2em;
+  text-align: left;
+}
+
+.result th {
+  background-color: #eee;
+}
+
+td, th {
+    padding: 1em;
+}
