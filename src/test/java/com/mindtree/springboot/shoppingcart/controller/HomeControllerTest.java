@@ -14,10 +14,10 @@ import org.springframework.web.servlet.ModelAndView;
  */
 public class HomeControllerTest {
 
-    private HomeController controller;
+    private static HomeController controller;
 
     @BeforeAll
-    public void setUp() {
+    public static void setUp() {
         controller = new HomeController();
     }
 
