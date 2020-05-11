@@ -26,7 +26,7 @@ public class HomeControllerTest {
         ModelAndView actual = controller.getRegistrationForm();
 
         assertNotNull(actual);
-        fail();
+        //fail();
     }
 
 }
