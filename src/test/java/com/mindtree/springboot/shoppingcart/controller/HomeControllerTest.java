@@ -5,8 +5,7 @@ package com.mindtree.springboot.shoppingcart.controller;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import org.aspectj.lang.annotation.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -17,7 +16,7 @@ public class HomeControllerTest {
 
     private HomeController controller;
 
-    @Before
+    @BeforeAll
     public void setUp() {
         controller = new HomeController();
     }
